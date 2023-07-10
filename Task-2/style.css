@@ -23,7 +23,7 @@ ul{
     margin: 0 10px;
 }
 #logo{
-    width: 200px
+    width: 250px;
 }
 header{
     display: flex;
@@ -43,7 +43,7 @@ header{
 .banner1{
     background-image: url(./img/bg-1.jpg);
     background-size: cover;
-    height: 500px;
+    height: 420px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -75,7 +75,6 @@ h2{
     font-size: xx-large;
 }
 .products{
-    /* border: 2px solid; */
     display: inline-block;
     text-align: center;
     font-family: calibri;
@@ -108,7 +107,8 @@ h4{
 }
 .banner2 b{
     font-family: sans-serif;
-    font-size: larger;
+    font-size: x-large;
+    font-weight: normal;
 }
 .banner2 button{
     font-weight: bold;
@@ -116,7 +116,7 @@ h4{
     border: 2px solid;
 }
 .mostpopular .cardtext{
-    line-height: 18px;
+    line-height: 22px;
     font-size: medium;
 }
 .mostpopular{
@@ -149,12 +149,18 @@ h4{
     margin: 0px 15px;
 }
 .trendingproducts .cardtext{
-    line-height: 18px;
+    line-height: 22px;
     font-size: medium;
+}
+.trendingproducts h4{
+    text-align: start;
+}
+.trendingproducts .stars{
+    text-align: start;
 }
 .journal{
     display: inline-block;
-    line-height: 25px;
+    line-height: 28px;
 }
 
 em{
@@ -186,6 +192,16 @@ p{
 }
 .journal img{
     border-radius: 8px;
+}
+.journal b{
+    font-weight: 100;
+    font-size: small;
+    font-family: calibri;
+}
+b span{
+    color: crimson;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 .followus{
     display: flex;

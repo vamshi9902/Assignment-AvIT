@@ -233,6 +233,17 @@ li img{
     margin: 0 5px;
     border-radius: 5px;
 }
+.last{
+    color: darkgrey;
+    background-color: black;
+    font-size: smaller;
+    text-align: center;
+    padding-bottom: 25px;
+}
+hr{
+    width: 90%;
+    margin-left: 5%;
+}
 @media (max-width:1100){
     .banner1{
         height: 350px;

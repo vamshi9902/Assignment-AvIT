@@ -124,7 +124,7 @@ h5{
     background-image: url(../images/banner/b17.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 650px;
+    width: 670px;
     padding-top: 100px;
     padding-left:40px;
     color: white;
@@ -134,7 +134,7 @@ h5{
     background-image: url(../images/banner/b10.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 650px;
+    width: 670px;
     padding-top: 100px;
     padding-left:40px;
     color: white;
@@ -142,13 +142,13 @@ h5{
 }
 .smallbanner{
     display: flex;
-    justify-content: space-around;
-    gap: 15px;
+    justify-content:center;
+    gap: 25px;
     height: 380px;
 }
 .sscards{
     display: flex;
-    margin-left: 37px;
+    justify-content: center;
 }
 .ssc1{
     background-image: url(../images/banner/b7.jpg);

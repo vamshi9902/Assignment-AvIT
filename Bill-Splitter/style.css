@@ -1,0 +1,39 @@
+.container{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 1px solid; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 10px;
+    margin: 10% auto;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+input{
+    padding: 10px;
+    font-family: calibri;
+    width: 90%;
+    margin-left: 10px ;
+}
+button{
+    width: 50%;
+    padding: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: larger;
+    background-color: salmon;
+    border: none;
+    margin-left: 10px;
+}
+span{
+    color: red;
+    font-family: calibri;
+    font-size: small;
+    font-family: monospace;
+    font-weight: bold;
+}

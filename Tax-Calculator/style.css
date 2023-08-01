@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+}
+form{
+    max-width: 500px;
+    padding: 20px;
+    margin: 1% auto;
+    background-color: whitesmoke;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    font-family: calibri;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+label{
+    display: inline-block;
+    width: 150px;
+}
+input{
+    width: 65%;
+    padding: 8px;
+}
+#result{
+    width: 95%;
+}
+button{
+    width: 35%;
+    padding: 6px;
+    margin: 10px;
+    margin-left: 9%;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: larger;
+    border: 1px solid;
+    background-color: salmon;
+    cursor: pointer;
+}
+p{
+    font-weight: lighter;
+    font-family: monospace;
+    text-align: center;
+}

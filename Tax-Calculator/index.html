@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAX CALCULATOR</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="#">
+
+        <h1>TAX CALCULATOR</h1><br><hr><br>
+        <p id="note"><b>NOTE:</b> Enter your name and salary only</p><br>
+        <label for="name">Enter your name: </label>
+        <input type="text" id="ename" placeholder=""><br><br><br>
+
+        <label for="salary">Enter your salary: </label>
+        <input type="text" id="esalary"><br><br><br>
+
+        <label for="ded1">Deduction-1: </label>
+        <input type="text" id="ded1"><br><br><br>
+
+        <label for="ded2">Deduction-2: </label>
+        <input type="text" id="ded2"><br><br><br>
+
+        <label for="totalded">Total-Deduction: </label>
+        <input type="text" id="totalded"><br><br><br>
+
+        <label for="result">Result: </label><br><br>
+        <input type="text" id="result"><br><br>
+
+        <button type="reset">Clear</button>
+        <button onclick=taxconverter();>Calculate</button><br>
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+</html>

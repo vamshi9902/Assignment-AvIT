@@ -1,0 +1,21 @@
+.banner-content{
+    height: 100vh;
+    background-image: url('./images/hero4.png');
+    background-position: center center;
+    background-size: 100% 100%;
+    padding: 8% 5%;
+    font-family: calibri;
+}
+.shopBtn{
+    position: relative;
+    left: -150px;
+}
+.services{
+    width: 100%;
+    background-image: url('./images/banner/b2.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+ul{
+    list-style: none;
+}
